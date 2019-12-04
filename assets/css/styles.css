@@ -6,6 +6,10 @@ h1,h2,h3,h4{
 iframe{
   align-items: center;
 }
+img{
+  width:40%;
+  height: auto;
+}
 span{
   background-color: pink;
   color:white;
@@ -41,7 +45,11 @@ nav{
     color:#F1DEDE;
     font-family: 'Montserrat', sans-serif;
 }
-
+footer{
+  background-color:#E03378;
+  height:100px;
+  width: 100%;
+}
 .container-fluid{
   width:75%;
   font-family: 'Open Sans', sans-serif;
