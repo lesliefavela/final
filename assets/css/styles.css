@@ -3,10 +3,38 @@ h1,h2,h3,h4{
     color:#E03378;
     font-weight: bold;
 }
+iframe{
+  align-items: center;
+}
+span{
+  background-color: pink;
+  color:white;
+  font-weight: bold;
+  padding: 1px;
+  line-height:30px;
+  font-family: 'Montserrat', sans-serif;
+}
 h2,h3,h4{color:#605856; overflow: hidden;}
 
 h1{
   text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+ul.slides li { height:350px; }
+  ul.slides li.slide1 a { background:url("https://youtu.be/vx9CSpnROfs") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
+  ul.slides li.slide2 a { background:url("https://youtu.be/vx9CSpnROfs") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
+  ul.slides li.slide3 a { background:url("https://youtu.be/vx9CSpnROfs") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
+  ul.slides li.slideVideo a { background:url("https://youtu.be/vx9CSpnROfs") 0 0 no-repeat; background-size:cover; height:350px; display:block; }
+.social{
+  min-width: 1%;
+  min-height: 1%;
+  width:5%;
+  height:5%;
+  max-width: 5%;
+  max-height: 5%;
 }
 nav{
     background-color:#E03378;
