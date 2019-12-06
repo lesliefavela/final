@@ -132,7 +132,7 @@ ul.slides li.slideVideo a { background:url("https://youtu.be/vx9CSpnROfs") 0 0 n
 
 footer{
   background-color:#E03378;
-  height:140px;
+  height:auto;
   width: 100%;
   align-content: center;
 }
